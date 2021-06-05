@@ -6,9 +6,7 @@
   "homepage": "https://yuliiau.github.io/goit-js-hw-13-image-finder/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-13-image-finder/",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-13-image-finder/"
   },
   "repository": {
     "type": "git",
@@ -30,8 +28,6 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "basiclightbox": "^5.0.4",
-    "lodash.debounce": "^4.0.8",
-    "@pnotify/core": "^5.2.0"
+    "lodash.debounce": "^4.0.8"
   }
 }
